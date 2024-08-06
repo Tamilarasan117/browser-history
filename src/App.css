@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header-container {
+  background-color: #3367d6;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-logo-img {
+  margin-left: 20px;
+}
+.search-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 35px;
+  border: 1px solid  #6697ff;
+  border-radius: 3px;
+  background-color: #2850a7;
+  margin-right: 40px;
+  width: 55%;
+}
+.search-icon {
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+}
+.line {
+  border: 1px solid  #6697ff;
+  height: 34px;
+  margin: 0 5px;
+}
+.search-field {
+  background-color: #2850a7;
+  border: none;
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  color: #ffffff;
+  outline: none;
+  font-weight: 500;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.history-list-container {
+  box-shadow: 0 0 15px #9ca8ba;
+  border-radius: 7px;
+  padding: 15px;
+  width: 100%;
+}
+.empty-text {
+  color: #475569;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .search-card {
+    width: 500px;
+    margin-right: 100px;
+  }
+}
